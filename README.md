@@ -4,7 +4,7 @@ A modern, high-end restaurant website featuring a dynamic menu, slot-based reser
 
 **Live Demo:** [https://woxro-restaurant-task-vercel.vercel.app/](https://woxro-restaurant-task-vercel.vercel.app/)
 
-## 🌟 Features
+##  Features
 
 - **Dynamic Menu:** Categorized menu items (Sushi, Drinks, Desserts) fetched from the backend.
 - **Reservation System:** Real-time slot-based booking with automated availability checking.
@@ -14,7 +14,7 @@ A modern, high-end restaurant website featuring a dynamic menu, slot-based reser
 - **Responsive Design:** Optimized for mobile, tablet, and desktop views with premium glassmorphism and animations.
 - **Premium Aesthetics:** Custom "Forum" and "Cormorant Garamond" typography, dark-themed UI, and gold accents.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework:** [Next.js](https://nextjs.org/) (App Router)
@@ -29,7 +29,7 @@ A modern, high-end restaurant website featuring a dynamic menu, slot-based reser
 - **Authentication:** JWT (JSON Web Tokens) & Bcrypt for password hashing
 - **File Uploads:** Multer (for blog/menu images)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18+)
@@ -77,7 +77,7 @@ A modern, high-end restaurant website featuring a dynamic menu, slot-based reser
      npm run dev
      ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── backend/
@@ -94,7 +94,7 @@ A modern, high-end restaurant website featuring a dynamic menu, slot-based reser
 │   └── tailwind.config.ts # Custom theme configuration
 ```
 
-## 🔐 Admin Access
+## Admin Access
 
 The admin dashboard is accessible at `/admin`.
 - **Username:** `admin`
