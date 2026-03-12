@@ -65,16 +65,6 @@ export default function ContactSection() {
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
           <div className="absolute top-8 left-8 md:top-12 md:left-12 flex items-center gap-4 md:gap-6">
-             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-white/20 flex items-center justify-center bg-black/40 backdrop-blur-sm">
-                <span className="text-white text-lg md:text-xl">☰</span>
-             </div>
-             <div className="bg-black/40 backdrop-blur-sm border border-white/10 px-4 md:px-6 py-2 rounded-full hidden sm:block font-medium">
-                <div className="flex gap-4 md:gap-8 text-[10px] md:text-[11px] tracking-[1.5px] md:tracking-[2px] text-off-white font-sans uppercase">
-                  <a href="#menu" className="hover:text-white transition-colors">Menu</a>
-                  <a href="#about" className="hover:text-white transition-colors">About</a>
-                  <a href="#reservation" className="hover:text-white transition-colors">Book</a>
-                </div>
-             </div>
           </div>
           <h2 className="absolute bottom-8 left-8 md:bottom-12 md:left-12 text-off-white font-forum text-6xl sm:text-8xl md:text-[100px] leading-none uppercase pointer-events-none tracking-[-2px]">
             CONTACT
