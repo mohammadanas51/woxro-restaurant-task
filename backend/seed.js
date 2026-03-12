@@ -1,3 +1,4 @@
+require("dotenv").config();
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 
@@ -6,8 +7,7 @@ const OpeningHour = require("./models/OpeningHour");
 const Blog = require("./models/Blog");
 const Admin = require("./models/Admin");
 
-const MONGO_URI =
-  "mongodb+srv://mohammadanas51_db_user:2iqT7V0ZgKAQ12IY@woxro-restaurant.kbvspsg.mongodb.net/qitchen?appName=Woxro-Restaurant";
+const MONGO_URI = process.env.MONGO_URI;
 
 async function seed() {
   await mongoose.connect(MONGO_URI);
