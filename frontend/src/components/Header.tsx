@@ -14,10 +14,10 @@ export default function Header() {
   }, []);
 
   const menuOptions = [
-    { name: 'Menu', href: '#menu' },
-    { name: 'Reservation', href: '#reservation' },
-    { name: 'About', href: '#about' },
-    { name: 'Contact', href: '#footer' },
+    { name: 'Menu', href: '/#menu' },
+    { name: 'Reservation', href: '/#reservation' },
+    { name: 'About', href: '/#about' },
+    { name: 'Contact', href: '/#footer' },
     { name: 'Blog', href: '/blog' }
   ];
 
@@ -45,9 +45,9 @@ export default function Header() {
 
           {/* Desktop Links */}
           <div className="hidden md:flex items-center gap-6 pr-2">
-            <a href="#menu" className="text-[11px] font-medium tracking-[2px] text-white/70 hover:text-white transition-colors uppercase">MENU</a>
-            <a href="#about" className="text-[11px] font-medium tracking-[2px] text-white/70 hover:text-white transition-colors uppercase">ABOUT</a>
-            <a href="#reservation" className="text-[11px] font-medium tracking-[2px] border border-white/20 px-4 py-2 rounded-xl hover:bg-white hover:text-black transition-all uppercase">BOOK A TABLE</a>
+            <Link href="/#menu" className="text-[11px] font-medium tracking-[2px] text-white/70 hover:text-white transition-colors uppercase">MENU</Link>
+            <Link href="/#about" className="text-[11px] font-medium tracking-[2px] text-white/70 hover:text-white transition-colors uppercase">ABOUT</Link>
+            <Link href="/#reservation" className="text-[11px] font-medium tracking-[2px] border border-white/20 px-4 py-2 rounded-xl hover:bg-white hover:text-black transition-all uppercase">BOOK A TABLE</Link>
           </div>
         </nav>
       </header>
@@ -64,14 +64,14 @@ export default function Header() {
           
           <div className="flex flex-col gap-8 text-center">
             {menuOptions.map((option, i) => (
-              <a
+              <Link
                 key={i}
                 href={option.href}
                 onClick={() => setMenuOpen(false)}
-                className="font-serif text-4xl md:text-5xl tracking-[4px] text-white/80 hover:text-white transition-all transform hover:scale-110"
+                className="font-forum text-4xl md:text-5xl tracking-[4px] text-white/80 hover:text-white transition-all transform hover:scale-110"
               >
                 {option.name.toUpperCase()}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

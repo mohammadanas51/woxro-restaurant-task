@@ -23,9 +23,9 @@ export default function Footer() {
           </h4>
           <div className="flex flex-col gap-3">
             {[
-              { label: 'Menu', href: '#menu' },
-              { label: 'About', href: '#about' },
-              { label: 'Reservation', href: '#reservation' },
+              { label: 'Menu', href: '/#menu' },
+              { label: 'About', href: '/#about' },
+              { label: 'Reservation', href: '/#reservation' },
               { label: 'Blog', href: '/blog' },
             ].map(link => (
               <Link key={link.href} href={link.href} className="font-sans text-[13px] text-[#666] hover:text-white transition-colors">
