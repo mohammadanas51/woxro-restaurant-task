@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "69b04d333125639c958831df",
+    "dayRange": "Monday - Friday",
+    "openTime": "09:00",
+    "closeTime": "23:30",
+    "__v": 0,
+    "createdAt": "2026-03-10T16:56:19.781Z",
+    "updatedAt": "2026-03-12T00:55:21.208Z"
+  },
+  {
+    "_id": "69b04d333125639c958831e0",
+    "dayRange": "Saturday - Sunday",
+    "openTime": "10:00",
+    "closeTime": "00:00",
+    "__v": 0,
+    "createdAt": "2026-03-10T16:56:19.781Z",
+    "updatedAt": "2026-03-12T00:55:21.269Z"
+  }
+]
