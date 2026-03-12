@@ -281,13 +281,10 @@ export default function AdminDashboard() {
                           {new Date(r.date).toLocaleDateString()} at <span className="text-[var(--accent-gold)]">{r.slot}</span> &bull; {r.guests} guest(s)
                         </p>
                       </div>
-                      <div className="flex flex-col items-end gap-1">
+                      <div className="flex flex-col items-end">
                         <p className="font-sans text-[10px] text-[#444] uppercase tracking-widest">
                           Reserved on {new Date(r.createdAt).toLocaleDateString()}
                         </p>
-                        <div className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-[10px] text-off-white tracking-widest uppercase">
-                          Confirmed
-                        </div>
                       </div>
                     </div>
                   </div>

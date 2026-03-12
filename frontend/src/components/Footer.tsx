@@ -41,9 +41,9 @@ export default function Footer() {
             FIND US
           </h4>
           <p className="font-sans text-[13px] text-[#666] leading-relaxed text-center sm:text-right">
-            123 Sushi Lane<br />
-            Copenhagen, Denmark<br />
-            +45 12 34 56 78
+            23 Greenfield Avenue,<br />
+            Prague 120 00<br />
+           +49 1234 567890
           </p>
           <div className="mt-5 flex gap-4 justify-center sm:justify-end">
             <a href="#" className="text-[#666] text-[13px] hover:text-white transition-colors">Instagram</a>
